@@ -1,0 +1,22 @@
+{
+  "name": "praktikum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rd /s /q dist && webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "author": "YliKo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.29.1"
+  }
+}
